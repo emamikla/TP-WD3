@@ -1,0 +1,417 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001871;
+    background-color: white;
+}
+
+h1, h2, h3, h4,
+.nav-link,
+.btn,
+.badge{
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-weight: 700;
+}
+
+/* HEADER / NAV */
+.header-festival{
+    background-color: white;
+    border-bottom: 3px solid #ED1B2E;
+    padding: 10px 0;
+}
+
+.logo-nav{
+    width: 180px;
+}
+
+.header-festival .nav-link{
+    color: #001871;
+    font-weight: 600;
+}
+
+.header-festival .nav-link:hover{
+    color: #ED1B2E;
+}
+
+/* BOTONES */
+.btn-gradient{
+    background: #ED1B2E;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-gradient:hover,
+.btn-gradient:active{
+    background: #c41224;
+    color: white;
+}
+
+.btn-outline-light{
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:active{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: white;
+    color: white;
+}
+
+.btn-carousel{
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.btn-carousel:hover{
+    background-color: #ED1B2E;
+    border-color: #ED1B2E;
+    color: white;
+}
+
+/* BADGES */
+.badge-festival{
+    background-color: #ED1B2E;
+    color: white;
+    padding: 8px 12px;
+}
+
+.badge-genero{
+    background-color: #001871;
+    margin-bottom: 10px;
+}
+
+.badge-disponible{
+    background-color: green;
+}
+
+.badge-ultimos{
+    background-color: #ED1B2E;
+}
+
+/* HERO */
+.hero{
+    background: #ED1B2E;
+    background: linear-gradient(188deg, rgba(237, 27, 46, 1) 22%, rgba(0, 24, 113, 1) 82%);
+    color: white;
+    padding: 80px 0;
+}
+
+.hero-titulo{
+    font-size: 54px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    animation: aparecer 1s;
+}
+
+.hero-bajada{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-img{
+    border-radius: 10px;
+}
+
+@keyframes aparecer{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* SECCIONES */
+.seccion{
+    padding: 70px 0;
+}
+
+.titulo-seccion{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.bajada-seccion{
+    max-width: 700px;
+    font-size: 18px;
+}
+
+/* INFO */
+.seccion-info{
+    background-color: #f4f6fb;
+}
+
+.card-info{
+    border: 2px solid #001871;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card-info .card-title{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* LINEUP */
+.seccion-lineup{
+    background-color: #001871;
+    color: white;
+}
+
+.card-artista{
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card-artista:hover{
+    transform: translateY(-8px);
+}
+
+.card-artista .card-img-top{
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-artista .card-title{
+    font-size: 20px;
+    color: #001871;
+}
+
+.card-artista .card-text{
+    font-size: 15px;
+}
+
+/* FECHA Y LUGAR */
+.bloque-datos{
+    background-color: #001871;
+    color: white;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.bloque-datos h3{
+    color: #ED1B2E;
+    margin-bottom: 15px;
+}
+
+.bloque-datos li{
+    padding: 4px 0;
+}
+
+.dato-importante{
+    border-left: 4px solid #ED1B2E;
+    padding-left: 10px;
+}
+
+.bloque-util{
+    background-color: #f4f6fb;
+    border-radius: 10px;
+    padding: 30px 25px;
+    min-height: 200px;
+}
+
+.bloque-util h4{
+    font-size: 21px;
+    color: #ED1B2E;
+    margin-bottom: 12px;
+}
+
+.bloque-util p{
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+/* TICKETS */
+.seccion-tickets{
+    background: #ED1B2E;
+    background: linear-gradient(205deg, rgba(237, 27, 46, 1) 3%, rgba(0, 24, 113, 1) 58%, rgba(255, 255, 255, 1) 95%);
+    color: white;
+}
+
+.card-ticket{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: #001871;
+}
+
+.card-ticket-destacada{
+    border: 3px solid #ED1B2E;
+}
+
+.card-ticket .card-title{
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.ticket-tipo{
+    color: #ED1B2E;
+    font-weight: 600;
+}
+
+.ticket-precio{
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.ticket-bajada{
+    font-style: italic;
+}
+
+.ticket-beneficios{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.ticket-beneficios li{
+    padding: 3px 0;
+}
+
+/* FOOTER */
+.footer-festival{
+    background-color: #001871;
+    color: white;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.footer-main-row{
+    padding-bottom: 3%;
+}
+
+.footer-brand{
+    color: #ED1B2E;
+    font-size: 120%;
+}
+
+.footer-links a,
+.footer-redes a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 95%;
+    text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-redes a:hover{
+    color: #ED1B2E;
+}
+
+.text-light-50{
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 95%;
+}
+
+.footer-sub{
+    padding-top: 2%;
+    font-size: 85%;
+}
+
+/* MEDIA QUERIES */
+
+/* Tablet */
+@media (max-width: 991px){
+    .header-festival .container{
+        flex-wrap: wrap;
+    }
+
+    .header-festival nav{
+        order: 3;
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    .header-festival .nav{
+        justify-content: center;
+    }
+
+    .hero-titulo{
+        font-size: 48px;
+    }
+
+    .titulo-seccion{
+        font-size: 30px;
+    }
+}
+
+/* Tablet chica */
+@media (max-width: 767px){
+    .hero-titulo{
+        font-size: 40px;
+    }
+}
+
+/* Celular */
+@media (max-width: 576px){
+    .logo-nav{
+        width: 140px;
+    }
+
+    .header-festival .nav-link{
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+
+    .card-artista .card-img-top{
+        height: 130px;
+    }
+
+    .card-artista .card-body{
+        padding: 10px;
+    }
+
+    .card-artista .card-title{
+        font-size: 15px;
+    }
+
+    .card-artista .card-text{
+        font-size: 13px;
+    }
+
+    .badge-genero{
+        white-space: normal;
+        text-align: left;
+    }
+
+    .hero-titulo{
+        font-size: 34px;
+    }
+
+    .hero-bajada{
+        font-size: 16px;
+    }
+
+    .titulo-seccion{
+        font-size: 24px;
+    }
+
+    .seccion{
+        padding: 50px 0;
+    }
+
+    .footer-festival{
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .footer-redes{
+        justify-content: center;
+    }
+}
