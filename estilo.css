@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     color: #001871;
     background-color: white;
@@ -7,276 +7,358 @@ body{
 h1, h2, h3, h4,
 .nav-link,
 .btn,
-.badge{
+.badge {
     font-family: 'Arial Black', Arial, sans-serif;
     font-weight: 700;
 }
 
-header{
+header {
     background-color: white;
     border-bottom: 3px solid #ED1B2E;
-    padding: 10px 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-.logo-nav{
-    width: 180px;
+header .container > a:first-child {
+    width: 18%;
 }
 
-.headerFestival .nav-link{
+.logoFestival {
+    width: 100%;
+    max-width: 100%;
+}
+
+header .nav-link {
     color: #001871;
     font-weight: 600;
 }
 
-header .nav-link:hover{
+header .nav-link:hover {
     color: #ED1B2E;
 }
 
-.btn-gradient{
-    background: #ED1B2E;
-    color: white;
+.botonPrincipal,
+.btn-outline-light {
     font-weight: bold;
+    border-radius: 5px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    transition: background-color 0.3s;
+}
+
+.botonPrincipal {
+    background-color: #ED1B2E;
+    color: white;
     border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    transition: background-color 0.3s;
 }
 
-.btn-gradient:hover,
-.btn-gradient:active{
-    background: #c41224;
+.botonPrincipal:hover,
+.botonPrincipal:active {
+    background-color: #c41224;
     color: white;
-}
-
-.btn-outline-light{
-    border-radius: 5px;
-    font-weight: bold;
-    padding: 10px 20px;
-    transition: background-color 0.3s;
 }
 
 .btn-outline-light:hover,
-.btn-outline-light:active{
+.btn-outline-light:active {
     background-color: rgba(0, 0, 0, 0.2);
     border-color: white;
     color: white;
 }
 
-.btn-carousel{
+.botonCarrusel {
     border: 2px solid white;
     color: white;
-    font-size: 20px;
+    font-size: 125%;
     border-radius: 5px;
-    padding: 5px 15px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    transition: background-color 0.3s;
 }
 
-.btn-carousel:hover{
+.botonCarrusel:hover {
     background-color: #ED1B2E;
     border-color: #ED1B2E;
     color: white;
 }
 
-.badge-festival{
+.etiquetaFestival,
+.etiquetaUltimosLugares {
     background-color: #ED1B2E;
+}
+
+.etiquetaFestival {
     color: white;
-    padding: 8px 12px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
-.badge-genero{
+.etiquetaGenero {
     background-color: #001871;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
 }
 
-.badge-disponible{
+.etiquetaDisponible {
     background-color: green;
 }
 
-.badge-ultimos{
-    background-color: #ED1B2E;
-}
-
-.hero{
-    background: #ED1B2E;
-    background: linear-gradient(188deg, rgba(237, 27, 46, 1) 22%, rgba(0, 24, 113, 1) 82%);
+.portadaFestival {
+    background: linear-gradient(
+        188deg,
+        #ED1B2E 22%,
+        #001871 82%
+    );
     color: white;
-    padding: 80px 0;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 
-.hero-titulo{
-    font-size: 54px;
+.tituloPortada {
+    font-size: 337.5%;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     animation: aparecer 1s;
 }
 
-.hero-bajada{
-    font-size: 20px;
-    margin-bottom: 30px;
+.descripcionPortada {
+    font-size: 125%;
+    margin-bottom: 3%;
 }
 
-.hero-img{
+.imagenPortada,
+.tarjetaInformacion,
+.tarjetaArtista,
+.bloqueDatos,
+.bloqueUtil,
+.tarjetaEntrada,
+.formularioCompra {
     border-radius: 10px;
 }
 
-@keyframes aparecer{
-    from{
+@keyframes aparecer {
+    from {
         opacity: 0;
-        transform: translateY(20px);
     }
-    to{
+
+    to {
         opacity: 1;
-        transform: translateY(0);
     }
 }
 
-.seccion{
-    padding: 70px 0;
+.seccion {
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
-.titulo-seccion{
-    font-size: 36px;
+.tituloSeccion {
+    font-size: 225%;
     text-transform: uppercase;
-    margin-bottom: 15px;
-    animation: aparecer 1s
+    margin-bottom: 1.5%;
 }
 
-.bajada-seccion{
-    max-width: 700px;
-    font-size: 18px;
+.descripcionSeccion {
+    max-width: 70%;
+    font-size: 112.5%;
 }
 
-.seccion-info{
+.seccionInformacion,
+.seccionCompra,
+.bloqueUtil {
     background-color: #f4f6fb;
 }
 
-.card-info{
+.tarjetaInformacion {
     border: 2px solid #001871;
-    border-radius: 10px;
-    padding: 15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.card-info .card-title{
-    font-size: 22px;
-    margin-bottom: 10px;
+.tarjetaInformacion .card-title {
+    font-size: 137.5%;
+    margin-bottom: 1%;
 }
 
-.seccion-lineup{
+.seccionBandas,
+.bloqueDatos {
     background-color: #001871;
     color: white;
 }
 
-.card-artista{
+.tarjetaArtista,
+.tarjetaEntrada {
     border: none;
-    border-radius: 10px;
+}
+
+.tarjetaArtista {
     overflow: hidden;
     transition: transform 0.3s;
 }
 
-.card-artista:hover{
-    transform: translateY(-8px);
+.tarjetaArtista:hover {
+    transform: translateY(-2%);
 }
 
-.card-artista .card-img-top{
-    height: 220px;
+.tarjetaArtista .card-img-top {
+    width: 100%;
+    aspect-ratio: 3 / 2;
     object-fit: cover;
 }
 
-.card-artista .card-title{
-    font-size: 20px;
+.tarjetaArtista .card-title {
+    font-size: 125%;
     color: #001871;
 }
 
-.card-artista .card-text{
-    font-size: 15px;
+.tarjetaArtista .card-text {
+    font-size: 93.75%;
 }
 
-.bloque-datos{
-    background-color: #001871;
-    color: white;
-    border-radius: 10px;
-    padding: 25px;
+.bloqueDatos {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
-.bloque-datos h3{
+.bloqueDatos h3 {
     color: #ED1B2E;
-    margin-bottom: 15px;
+    margin-bottom: 1.5%;
 }
 
-.bloque-datos li{
-    padding: 4px 0;
+.bloqueDatos li {
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
 }
 
-.dato-importante{
+.datoImportante {
     border-left: 4px solid #ED1B2E;
-    padding-left: 10px;
+    padding-left: 3%;
 }
 
-.bloque-util{
-    background-color: #f4f6fb;
-    border-radius: 10px;
-    padding: 30px 25px;
-    min-height: 200px;
+.bloqueUtil {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 7%;
+    padding-right: 7%;
+    min-height: 100%;
 }
 
-.bloque-util h4{
-    font-size: 21px;
+.bloqueUtil h4 {
+    font-size: 131.25%;
     color: #ED1B2E;
-    margin-bottom: 12px;
+    margin-bottom: 1.2%;
 }
 
-.bloque-util p{
-    font-size: 17px;
+.bloqueUtil p {
+    font-size: 106.25%;
     margin-bottom: 0;
 }
 
-.seccion-tickets{
-    background: #ED1B2E;
-    background: linear-gradient(205deg, rgba(237, 27, 46, 1) 3%, rgba(0, 24, 113, 1) 58%, rgba(255, 255, 255, 1) 95%);
+.seccionEntradas {
+    background: linear-gradient(
+        205deg,
+        #ED1B2E 3%,
+        #001871 58%,
+        white 95%
+    );
     color: white;
 }
 
-.card-ticket{
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
+.tarjetaEntrada {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
     color: #001871;
 }
 
-.card-ticket-destacada{
+.entradaDestacada {
     border: 3px solid #ED1B2E;
 }
 
-.card-ticket .card-title{
-    font-size: 26px;
+.tarjetaEntrada .card-title {
+    font-size: 162.5%;
     text-transform: uppercase;
     margin-bottom: 0;
 }
 
-.ticket-tipo{
+.tipoEntrada {
     color: #ED1B2E;
     font-weight: 600;
 }
 
-.ticket-precio{
+.precioEntrada {
     font-family: 'Arial Black', Arial, sans-serif;
-    font-size: 36px;
+    font-size: 225%;
     font-weight: 800;
-    margin-bottom: 5px;
+    margin-bottom: 0.5%;
 }
 
-.ticket-bajada{
+.descripcionEntrada {
     font-style: italic;
 }
 
-.ticket-beneficios{
-    padding-left: 20px;
-    margin-bottom: 20px;
+.beneficiosEntrada {
+    padding-left: 8%;
+    margin-bottom: 6%;
 }
 
-.ticket-beneficios li{
-    padding: 3px 0;
+.beneficiosEntrada li {
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
 }
 
-.footer-festival{
+.row {
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.formularioCompra {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: white;
+    border: 2px solid #001871;
+}
+
+.formularioCompra .form-label {
+    font-weight: 700;
+    color: #001871;
+}
+
+.formularioCompra .form-control,
+.formularioCompra .form-select {
+    color: #001871;
+    border: 2px solid #001871;
+    border-radius: 5px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    transition: border-color 0.3s;
+}
+
+.formularioCompra .form-control:focus,
+.formularioCompra .form-select:focus {
+    border-color: #ED1B2E;
+    outline: 2px solid rgba(237, 27, 46, 0.2);
+    box-shadow: none;
+}
+
+.avisoCompra {
+    font-size: 90%;
+}
+
+.pieFestival {
     background-color: #001871;
     color: white;
     width: 100%;
@@ -284,129 +366,129 @@ header .nav-link:hover{
     padding-bottom: 2%;
 }
 
-.row{
-    margin-left: 6%;
-    margin-right: 6%;
-}
-.footer-main-row{
+.contenidoPie {
     padding-bottom: 3%;
 }
 
-.footer-brand{
+.marcaFestival {
     color: #ED1B2E;
     font-size: 120%;
 }
 
-.footer-links a,
-.footer-redes a{
+.enlacesPie a,
+.redesPie a {
     color: rgba(255, 255, 255, 0.7);
     font-size: 95%;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
-.footer-links a:hover,
-.footer-redes a:hover{
+.enlacesPie a:hover,
+.redesPie a:hover {
     color: #ED1B2E;
 }
-.nav-link
-{
-    color: #001871;
-}
 
-.text-light-50{
+.textoAtenuado {
     color: rgba(255, 255, 255, 0.7) !important;
     font-size: 95%;
 }
 
-.footer-sub{
+.derechosPie {
     padding-top: 2%;
     font-size: 85%;
 }
 
-
-@media (max-width: 991px){
-    .header .container{
+@media (max-width: 991px) {
+    header .container {
         flex-wrap: wrap;
     }
 
-    header nav{
+    header nav {
         order: 3;
         width: 100%;
-        margin-top: 8px;
-    }
-
-    header .nav{
+        margin-top: 0.8%;
         justify-content: center;
     }
 
-    .hero-titulo{
-        font-size: 48px;
+    .tituloPortada {
+        font-size: 300%;
     }
 
-    .titulo-seccion{
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 767px){
-    .hero-titulo{
-        font-size: 40px;
+    .tituloSeccion {
+        font-size: 187.5%;
     }
 }
 
-@media (max-width: 576px){
-    .logo-nav{
-        width: 140px;
+@media (max-width: 767px) {
+    .tituloPortada {
+        font-size: 250%;
+    }
+}
+
+@media (max-width: 576px) {
+    header .container > a:first-child {
+        width: 40%;
     }
 
-    header .nav-link{
-        padding: 5px 8px;
-        font-size: 14px;
+    header .nav-link {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 8%;
+        padding-right: 8%;
+        font-size: 87.5%;
     }
 
-    .card-artista .card-img-top{
-        height: 130px;
+    .tarjetaArtista .card-body {
+        padding-top: 7%;
+        padding-bottom: 7%;
+        padding-left: 7%;
+        padding-right: 7%;
     }
 
-    .card-artista .card-body{
-        padding: 10px;
+    .tarjetaArtista .card-title {
+        font-size: 93.75%;
     }
 
-    .card-artista .card-title{
-        font-size: 15px;
+    .tarjetaArtista .card-text {
+        font-size: 81.25%;
     }
 
-    .card-artista .card-text{
-        font-size: 13px;
-    }
-
-    .badge-genero{
+    .etiquetaGenero {
         white-space: normal;
         text-align: left;
     }
 
-    .hero-titulo{
-        font-size: 34px;
+    .tituloPortada {
+        font-size: 212.5%;
     }
 
-    .hero-bajada{
-        font-size: 16px;
+    .descripcionPortada {
+        font-size: 100%;
     }
 
-    .titulo-seccion{
-        font-size: 24px;
+    .tituloSeccion {
+        font-size: 150%;
     }
 
-    .seccion{
-        padding: 50px 0;
+    .descripcionSeccion {
+        max-width: 100%;
     }
 
-    .footer-festival{
+    .seccion {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .formularioCompra {
+        width: 100%;
+    }
+
+    .pieFestival {
         text-align: center;
         padding-top: 10%;
     }
 
-    .footer-redes{
+    .redesPie {
         justify-content: center;
     }
 }

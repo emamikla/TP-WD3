@@ -1,486 +1,535 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KadimaPalooza | Festival de Rock Alternativo e Indie</title>
-    <link rel="icon" href="ISOTIPO-KADIMAPALOOZA.jpg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KadimaPalooza | Festival de Rock Alternativo e Indie</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet">
+  <link rel="icon" href="ISOTIPO-KADIMAPALOOZA.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
 
-    <link rel="stylesheet" href="estilo.css">
-  </head>
-  <body>
+<body>
+  <header class="sticky-top">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a href="#inicio">
+        <img src="KadimaPalooza-logo-media-compu.jpg" alt="KadimaPalooza" class="logoFestival">
+      </a>
 
-    <header class= "sticky-top">
-      <div class="container d-flex justify-content-between align-items-center">
-        <a href="#inicio">
-          <img src="KadimaPalooza-logo-media-compu.jpg" alt="KadimaPalooza"
-            class="logo-nav">
-        </a>
+      <nav class="nav">
+        <a class="nav-link" href="#info">Info</a>
+        <a class="nav-link" href="#lineup">Lineup</a>
+        <a class="nav-link" href="#datos">Fecha & Lugar</a>
+      </nav>
 
-        <nav>
-          <ul class="nav">
-            <li class="nav-item"><a class="nav-link" href="#info">Info</a></li>
-            <li class="nav-item"><a class="nav-link" href="#lineup">Lineup</a></li>
-            <li class="nav-item"><a class="nav-link" href="#datos">Fecha & Lugar</a></li>
-          </ul>
-        </nav>
+      <a class="btn botonPrincipal" href="#tickets">Comprar</a>
+    </div>
+  </header>
 
-        <a class="btn btn-gradient" href="#tickets">Comprar</a>
+  <main>
+    <section id="inicio" class="portadaFestival">
+      <div class="row align-items-center g-4">
+        <div class="col-12 col-lg-7 text-center text-lg-start">
+          <p class="badge etiquetaFestival mb-3">
+            Sáb 14 de Noviembre | Ciudad Cultural Konex
+          </p>
+
+          <h1 class="tituloPortada">KadimaPalooza</h1>
+
+          <p class="descripcionPortada">
+            Una noche, dos escenarios y lo mejor de la escena emergente en vivo.
+            Conectá con la nueva generación del rock e indie en una experiencia única.
+          </p>
+
+          <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start">
+            <a href="#tickets" class="btn botonPrincipal btn-lg">Comprar tickets</a>
+            <a href="#lineup" class="btn btn-outline-light btn-lg">Ver lineup</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-5">
+          <img src="hero.png" alt="Público frente al escenario del festival" class="img-fluid imagenPortada">
+        </div>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <section id="inicio" class="hero">
-          <div class="row align-items-center g-4">
-            <div class="col-12 col-lg-7 text-center text-lg-start">
-              <p class="badge badge-festival mb-3">Sáb 14 de Noviembre |
-                Ciudad Cultural Konex</p>
-              <h1 class="hero-titulo">KadimaPalooza</h1>
-              <p class="hero-bajada">
-                Una noche, dos escenarios y lo mejor de la escena emergente en vivo. Conectá con la nueva generación del rock e indie en una experiencia única.
-              </p>
-              <div
-                class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start">
-                <a href="#tickets"
-                  class="btn btn-gradient btn-lg">Comprar tickets</a>
-                <a href="#lineup" class="btn btn-outline-light btn-lg">Ver lineup</a>
-              </div>
-            </div>
+    <section id="info" class="seccion seccionInformacion">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="tituloSeccion">¿Por qué tenés que estar ahí?</h2>
 
-            <div class="col-12 col-lg-5">
-              <img src="hero.png" alt="Público frente al escenario del festival"
-                class="img-fluid hero-img">
-            </div>
-
+          <p class="descripcionSeccion mx-auto">
+            Diseñamos cada detalle para que vivas una noche inolvidable de música
+            en vivo, arte interactivo y cultura independiente.
+          </p>
         </div>
-      </section>
 
-      <section id="info" class="seccion seccion-info">
-        <div class="container">
-          <div class="text-center mb-5">
-            <h2 class="titulo-seccion">¿Por qué tenés que estar ahí?</h2>
-            <p class="bajada-seccion mx-auto">
-              Diseñamos cada detalle para que vivas una noche inolvidable de música en vivo, arte interactivo y cultura independiente.
-            </p>
-          </div>
+        <div class="row g-4">
+          <div class="col-12 col-md-4">
+            <div class="card tarjetaInformacion h-100">
+              <div class="card-body">
+                <h3 class="card-title">2 Escenarios en Simultáneo</h3>
 
-          <div class="row g-4">
-            <div class="col-12 col-md-4">
-              <div class="card card-info h-100">
-                <div class="card-body">
-                  <h3 class="card-title">2 Escenarios en Simultáneo</h3>
-                  <p class="card-text">
-                    Música continua sin pausas. Disfrutá de las bandas consagradas de la fecha y descubrí las nuevas propuestas del rock e indie emergente en dos escenarios equipados con sonido de alta fidelidad.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-              <div class="card card-info h-100">
-                <div class="card-body">
-                  <h3 class="card-title">Arte & Luces Neón</h3>
-                  <p class="card-text">
-                    Instalaciones visuales interactivas, mapeo lumínico y
-                    espacios pensados para que captures
-                    los mejores momentos de la noche con una estética nocturna e
-                    industrial.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-              <div class="card card-info h-100">
-                <div class="card-body">
-                  <h3 class="card-title">Patio Gastronómico & Chill Zone</h3>
-                  <p class="card-text">
-                    Variedad de food trucks con menúes para todos los gustos
-                    (incluyendo opciones vegetarianas
-                    y veganas), cerveza artesanal, puntos de hidratación
-                    gratuita y zonas de relax.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="lineup" class="seccion seccion-lineup">
-        <div class="container">
-          <div class="text-center mb-5">
-            <h2 class="titulo-seccion">Las bandas de la noche</h2>
-          </div>
-
-          <div id="carouselLineup" class="carousel slide"
-            data-bs-ride="carousel">
-            <div class="carousel-inner">
-
-              <div class="carousel-item active">
-                <div class="row g-4">
-                  <div class="col-6">
-                    <div class="card card-artista h-100">
-                      <img src="el mato a un policia motorizado.png"
-                        class="card-img-top"
-                        alt="El Mató a un Policía Motorizado">
-                      <div class="card-body">
-                        <span class="badge badge-genero">Indie Rock / Space
-                          Rock</span>
-                        <h3 class="card-title">El Mató a un Policía
-                          Motorizado</h3>
-                        <p class="card-text">Pilar fundamental del indie
-                          hispanoamericano, con melodías épicas, guitarras
-                          distorsionadas y un sonido inconfundible.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-6">
-                    <div class="card card-artista h-100">
-                      <img src="arctic monkeys.png" class="card-img-top"
-                        alt="Arctic Monkeys">
-                      <div class="card-body">
-                        <span class="badge badge-genero">Indie Rock / Garage
-                          Rock</span>
-                        <h3 class="card-title">Arctic Monkeys</h3>
-                        <p class="card-text">Una de las bandas más grandes del
-                          siglo XXI, referente global de riffs potentes, actitud
-                          e ícono indiscutido de los escenarios mundiales.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="row g-4">
-                  <div class="col-6">
-                    <div class="card card-artista h-100">
-                      <img src="bandalos chinos.png" class="card-img-top"
-                        alt="Bandalos Chinos">
-                      <div class="card-body">
-                        <span class="badge badge-genero">Indie Pop / Rock</span>
-                        <h3 class="card-title">Bandalos Chinos</h3>
-                        <p class="card-text">Referentes del indie bailable y
-                          elegante, con estribillos pegadizos y un sonido
-                          impecable en vivo.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-6">
-                    <div class="card card-artista h-100">
-                      <img src="the strokes.png" class="card-img-top"
-                        alt="The Strokes">
-                      <div class="card-body">
-                        <span class="badge badge-genero">Indie Rock / Post-Punk
-                          Revival</span>
-                        <h3 class="card-title">The Strokes</h3>
-                        <p class="card-text">Leyendas del indie rock
-                          neoyorquino, pioneros del sonido de los 2000 con
-                          guitarras afiladas y una estética inconfundible.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="row g-4">
-                  <div class="col-6">
-                    <div class="card card-artista h-100">
-                      <img src="usted señalemelo.png" class="card-img-top"
-                        alt="Usted Señalemelo">
-                      <div class="card-body">
-                        <span class="badge badge-genero">Rock Alternativo /
-                          Psicodélico</span>
-                        <h3 class="card-title">Usted Señalemelo</h3>
-                        <p class="card-text">Trío mendocino referente de la
-                          nueva ola del rock argentino, fusionando potencia,
-                          psicodelia y arreglos modernos.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-6">
-                    <div class="card card-artista h-100">
-                      <img src="the killers.png" class="card-img-top"
-                        alt="The Killers">
-                      <div class="card-body">
-                        <span class="badge badge-genero">Indie Rock /
-                          Alternative Rock</span>
-                        <h3 class="card-title">The Killers</h3>
-                        <p class="card-text">Gigantes del rock alternativo de
-                          Las Vegas, creadores de himnos generacionales con
-                          estribillos explosivos y un show de estadio
-                          imponente.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="row g-4">
-                  <div class="col-6">
-                    <div class="card card-artista h-100">
-                      <img src="marilina bertoldi.png" class="card-img-top"
-                        alt="Marilina Bertoldi">
-                      <div class="card-body">
-                        <span class="badge badge-genero">Rock Alternativo / Funk
-                          Rock</span>
-                        <h3 class="card-title">Marilina Bertoldi</h3>
-                        <p class="card-text">Ganadora del Gardel de Oro, destaca
-                          por su potencia vocal, actitud cruda y un despliegue
-                          escénico imponente.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-6">
-                    <div class="card card-artista h-100">
-                      <img src="gorillaz.png" class="card-img-top"
-                        alt="Gorillaz">
-                      <div class="card-body">
-                        <span class="badge badge-genero">Alternative Rock /
-                          Indie</span>
-                        <h3 class="card-title">Gorillaz</h3>
-                        <p class="card-text">Creados por Damon Albarn, son
-                          reconocidos mundialmente por fusionar géneros,
-                          visuales icónicas y shows cargados de invitados.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="d-flex justify-content-center gap-3 mt-4">
-              <button class="btn btn-carousel" type="button"
-                data-bs-target="#carouselLineup" data-bs-slide="prev"
-                aria-label="Anterior">&#8592;</button>
-              <button class="btn btn-carousel" type="button"
-                data-bs-target="#carouselLineup" data-bs-slide="next"
-                aria-label="Siguiente">&#8594;</button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="datos" class="seccion seccion-datos">
-        <div class="container">
-          <div class="text-center mb-5">
-            <h2 class="titulo-seccion">Fecha, lugar y experiencia</h2>
-            <p class="bajada-seccion mx-auto">
-              KadimaPalooza propone un recorrido de 8 horas ininterrumpidas de
-              música en vivo. Con dos escenarios
-              simultáneos (Patio Abierto y Sala de las Columnas), instalaciones
-              de arte con luces neón y un patio
-              gastronómico con variedad de opciones, el festival se consagra
-              como el punto de encuentro definitivo
-              para la cultura indie y el rock alternativo en la ciudad.
-            </p>
-          </div>
-
-          <div class="row g-4">
-            <div class="col-12 col-md-6">
-              <div class="bloque-datos h-100">
-                <h3>Fecha y horarios</h3>
-                <ul class="list-unstyled mb-3">
-                  <li><strong>Fecha:</strong> Sábado 14 de Noviembre</li>
-                  <li><strong>Apertura de puertas:</strong> 14:00 hs</li>
-                  <li><strong>Inicio de shows:</strong> 16:30 hs</li>
-                  <li><strong>Cierre del festival:</strong> 02:00 hs</li>
-                </ul>
-                <p class="dato-importante mb-0">
-                  Se recomienda ingresar antes de las 1:00 hs para evitar filas
-                  y disfrutar del lineup completo.
+                <p class="card-text">
+                  Música continua sin pausas. Disfrutá de las bandas consagradas de la fecha y descubrí las nuevas propuestas del rock e indie emergente en dos escenarios equipados con sonido de alta fidelidad.
                 </p>
               </div>
             </div>
-
-            <div class="col-12 col-md-6">
-              <div class="bloque-datos h-100">
-                <h3>Lugar y cómo llegar</h3>
-                <p class="mb-2"><strong>Ciudad Cultural Konex</strong>,
-                  Sarmiento 3131, Almagro, CABA</p>
-                <ul class="list-unstyled mb-0">
-                  <li><strong>Subte:</strong> Línea B (Estación Carlos Gardel a
-                    3 cuadras).</li>
-                  <li><strong>Colectivos:</strong> 24, 26, 29, 71, 99, 124, 146,
-                    168.</li>
-                  <li><strong>Bici / Monopatín:</strong> estacionamiento para
-                    bicis disponible en el ingreso.</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-3">
-              <div class="bloque-util h-100">
-                <h4>Ingreso y edad</h4>
-                <p>Solo mayores de 18 años. Ingreso obligatorio con DNI físico
-                  actualizado.</p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3">
-              <div class="bloque-util h-100">
-                <h4>Medios de pago</h4>
-                <p>Sistema Cashless recargable en el predio. Mercado Pago,
-                  débito, crédito y efectivo.</p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3">
-              <div class="bloque-util h-100">
-                <h4>Accesibilidad</h4>
-                <p>Predio 100% accesible con rampas, baños adaptados y sectores
-                  preferenciales.</p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3">
-              <div class="bloque-util h-100">
-                <h4>Sustentabilidad</h4>
-                <p>Ecovasos reutilizables y estaciones de recarga de agua
-                  gratuita toda la noche.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="tickets" class="seccion seccion-tickets">
-        <div class="container">
-          <div class="text-center mb-5">
-            <h2 class="titulo-seccion">Elegí tu entrada</h2>
-          </div>
-
-          <div class="row g-4 justify-content-center">
-
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card card-ticket h-100">
-                <div class="card-body d-flex flex-column">
-                  <span
-                    class="badge badge-disponible align-self-start mb-3">Disponible</span>
-                  <h3 class="card-title">Rock Pass</h3>
-                  <p class="ticket-tipo">Entrada General</p>
-                  <p class="ticket-precio">$120.000</p>
-                  <p class="ticket-bajada">Viví toda la energía del rock en
-                    vivo.</p>
-                  <ul class="ticket-beneficios">
-                    <li>Acceso general al evento.</li>
-                    <li>Acceso a sectores de gastronomía y bebidas.</li>
-                    <li>Disfrutá de todas las bandas y shows.</li>
-                  </ul>
-                  <button type="button" class="btn btn-gradient mt-auto">
-                    Comprar Rock Pass
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card card-ticket card-ticket-destacada h-100">
-                <div class="card-body d-flex flex-column">
-                  <span
-                    class="badge badge-ultimos align-self-start mb-3">Últimos
-                    lugares</span>
-                  <h3 class="card-title">Front Stage</h3>
-                  <p class="ticket-tipo">Entrada Preferencial</p>
-                  <p class="ticket-precio">$220.000</p>
-                  <p class="ticket-bajada">Sentí la música más cerca que
-                    nunca.</p>
-                  <ul class="ticket-beneficios">
-                    <li>Todos los beneficios de Rock Pass.</li>
-                    <li>Acceso al sector preferencial frente al escenario.</li>
-                    <li>Ingreso prioritario al evento.</li>
-                    <li>Pulsera exclusiva Front Stage.</li>
-                  </ul>
-                  <button type="button" class="btn btn-gradient mt-auto">
-                    Comprar Front Stage
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card card-ticket h-100">
-                <div class="card-body d-flex flex-column">
-                  <span
-                    class="badge badge-disponible align-self-start mb-3">Disponible</span>
-                  <h3 class="card-title">Rockstar VIP</h3>
-                  <p class="ticket-tipo">Entrada Premium</p>
-                  <p class="ticket-precio">$390.000</p>
-                  <p class="ticket-bajada">Viví una experiencia de auténtica
-                    estrella de rock.</p>
-                  <ul class="ticket-beneficios">
-                    <li>Todos los beneficios de Front Stage.</li>
-                    <li>Acceso a un espacio VIP exclusivo.</li>
-                    <li>Barra de bebidas y catering incluidos.</li>
-                    <li>Kit de merchandising oficial del evento.</li>
-                    <li>Acceso a baños exclusivos.</li>
-                    <li>Estacionamiento preferencial.</li>
-                  </ul>
-                  <button type="button" class="btn btn-gradient mt-auto">
-                    Comprar Rockstar VIP
-                  </button>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-    </main>
-
-    <footer class="footer-festival">
-      <div class="container">
-        <div
-          class="row g-4 border-bottom border-light border-opacity-10 footer-main-row">
-
-          <div class="col-12 col-md-4">
-            <h3
-              class="h5 fw-bold mb-3 text-uppercase footer-brand">KadimaPalooza</h3>
-            <p class="text-light-50 mb-3">Festival de Rock Alternativo e
-              Indie.</p>
-            <ul class="list-unstyled d-flex gap-3 footer-redes mb-0">
-              <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-              <li><a href="https://x.com" target="_blank">X</a></li>
-              <li><a href="https://tiktok.com" target="_blank">TikTok</a></li>
-              <li><a href="https://youtube.com" target="_blank">YouTube</a></li>
-            </ul>
           </div>
 
           <div class="col-12 col-md-4">
-            <h4 class="h6 fw-bold mb-3 text-uppercase text-white">Secciones</h4>
-            <ul class="list-unstyled footer-links mb-0">
-              <li class="mb-2"><a href="#info"
-                  class="text-decoration-none">Información</a></li>
-              <li class="mb-2"><a href="#lineup"
-                  class="text-decoration-none">Lineup</a></li>
-              <li class="mb-2"><a href="#datos"
-                  class="text-decoration-none">Fecha & Lugar</a></li>
-              <li class="mb-0"><a href="#tickets"
-                  class="text-decoration-none">Comprar Tickets</a></li>
-            </ul>
+            <div class="card tarjetaInformacion h-100">
+              <div class="card-body">
+                <h3 class="card-title">Arte & Luces Neón</h3>
+
+                <p class="card-text">
+                  Instalaciones visuales interactivas, mapeo lumínico y espacios pensados para que captures los mejores momentos de la noche con una estética nocturna e industrial.
+                </p>
+              </div>
+            </div>
           </div>
+
           <div class="col-12 col-md-4">
-            <h4 class="h6 fw-bold mb-3 text-uppercase text-white">Ubicación y
-              contacto</h4>
-            <p class="text-light-50 mb-1">Ciudad Cultural Konex (Sarmiento
-              3131)</p>
-            <p class="text-light-50 mb-1">Sábado 14 de Noviembre, 18:00 hs</p>
-            <p class="text-light-50 mb-0">info@kadimapalooza.com</p>
+            <div class="card tarjetaInformacion h-100">
+              <div class="card-body">
+                <h3 class="card-title">Patio Gastronómico & Chill Zone</h3>
+
+                <p class="card-text">
+                  Variedad de food trucks con menúes para todos los gustos (incluyendo opciones vegetarianas y veganas), cerveza artesanal, puntos de hidratación gratuita y zonas de relax.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div
-          class="d-flex flex-column flex-sm-row justify-content-center align-items-center footer-sub">
-          <p class="mb-0">© 2026 KadimaPalooza. Todos los derechos
-            reservados.</p>
         </div>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    </section>
+
+    <section id="lineup" class="seccion seccionBandas">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="tituloSeccion">Las bandas de la noche</h2>
+        </div>
+
+        <div id="carouselLineup" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row g-4">
+                <div class="col-6">
+                  <div class="card tarjetaArtista h-100">
+                    <img src="el mato a un policia motorizado.png" class="card-img-top" alt="El Mató a un Policía Motorizado">
+
+                    <div class="card-body">
+                      <span class="badge etiquetaGenero">Indie Rock / Space Rock</span>
+                      <h3 class="card-title">El Mató a un Policía Motorizado</h3>
+
+                      <p class="card-text">
+                        Pilar fundamental del indie hispanoamericano, con melodías
+                        épicas, guitarras distorsionadas y un sonido inconfundible.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <div class="card tarjetaArtista h-100">
+                    <img src="arctic monkeys.png" class="card-img-top" alt="Arctic Monkeys">
+
+                    <div class="card-body">
+                      <span class="badge etiquetaGenero">Indie Rock / Garage Rock</span>
+                      <h3 class="card-title">Arctic Monkeys</h3>
+
+                      <p class="card-text">
+                        Una de las bandas más grandes del siglo XXI, referente
+                        global de riffs potentes, actitud e ícono indiscutido de
+                        los escenarios mundiales.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row g-4">
+                <div class="col-6">
+                  <div class="card tarjetaArtista h-100">
+                    <img src="bandalos chinos.png" class="card-img-top" alt="Bandalos Chinos">
+
+                    <div class="card-body">
+                      <span class="badge etiquetaGenero">Indie Pop / Rock</span>
+                      <h3 class="card-title">Bandalos Chinos</h3>
+
+                      <p class="card-text">
+                        Referentes del indie bailable y elegante, con estribillos
+                        pegadizos y un sonido impecable en vivo.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <div class="card tarjetaArtista h-100">
+                    <img src="the strokes.png" class="card-img-top" alt="The Strokes">
+
+                    <div class="card-body">
+                      <span class="badge etiquetaGenero">Indie Rock / Post-Punk Revival</span>
+                      <h3 class="card-title">The Strokes</h3>
+
+                      <p class="card-text">
+                        Leyendas del indie rock neoyorquino, pioneros del sonido
+                        de los 2000 con guitarras afiladas y una estética inconfundible.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row g-4">
+                <div class="col-6">
+                  <div class="card tarjetaArtista h-100">
+                    <img src="usted señalemelo.png" class="card-img-top" alt="Usted Señalemelo">
+
+                    <div class="card-body">
+                      <span class="badge etiquetaGenero">Rock Alternativo / Psicodélico</span>
+                      <h3 class="card-title">Usted Señalemelo</h3>
+
+                      <p class="card-text">
+                        Trío mendocino referente de la nueva ola del rock argentino,
+                        fusionando potencia, psicodelia y arreglos modernos.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <div class="card tarjetaArtista h-100">
+                    <img src="the killers.png" class="card-img-top" alt="The Killers">
+
+                    <div class="card-body">
+                      <span class="badge etiquetaGenero">Indie Rock / Alternative Rock</span>
+                      <h3 class="card-title">The Killers</h3>
+
+                      <p class="card-text">
+                        Gigantes del rock alternativo de Las Vegas, creadores de
+                        himnos generacionales con estribillos explosivos y un show
+                        de estadio imponente.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row g-4">
+                <div class="col-6">
+                  <div class="card tarjetaArtista h-100">
+                    <img src="marilina bertoldi.png" class="card-img-top" alt="Marilina Bertoldi">
+
+                    <div class="card-body">
+                      <span class="badge etiquetaGenero">Rock Alternativo / Funk Rock</span>
+                      <h3 class="card-title">Marilina Bertoldi</h3>
+
+                      <p class="card-text">
+                        Ganadora del Gardel de Oro, destaca por su potencia vocal,
+                        actitud cruda y un despliegue escénico imponente.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <div class="card tarjetaArtista h-100">
+                    <img src="gorillaz.png" class="card-img-top" alt="Gorillaz">
+
+                    <div class="card-body">
+                      <span class="badge etiquetaGenero">Alternative Rock / Indie</span>
+                      <h3 class="card-title">Gorillaz</h3>
+
+                      <p class="card-text">
+                        Creados por Damon Albarn, son reconocidos mundialmente
+                        por fusionar géneros, visuales icónicas y shows cargados
+                        de invitados.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center gap-3 mt-4">
+            <button class="btn botonCarrusel" type="button" data-bs-target="#carouselLineup" data-bs-slide="prev" aria-label="Anterior">
+            </button>
+
+            <button class="btn botonCarrusel" type="button" data-bs-target="#carouselLineup" data-bs-slide="next" aria-label="Siguiente">
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="datos" class="seccion seccionDatos">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="tituloSeccion">Fecha, lugar y experiencia</h2>
+
+          <p class="descripcionSeccion mx-auto">
+            KadimaPalooza propone un recorrido de 8 horas ininterrumpidas de música
+            en vivo. Con dos escenarios simultáneos (Patio Abierto y Sala de las
+            Columnas), instalaciones de arte con luces neón y un patio gastronómico
+            con variedad de opciones, el festival se consagra como el punto de
+            encuentro definitivo para la cultura indie y el rock alternativo
+            en la ciudad.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-12 col-md-6">
+            <div class="bloqueDatos h-100">
+              <h3>Fecha y horarios</h3>
+
+              <ul class="list-unstyled mb-3">
+                <li><strong>Fecha:</strong> Sábado 14 de Noviembre</li>
+                <li><strong>Apertura de puertas:</strong> 14:00 hs</li>
+                <li><strong>Inicio de shows:</strong> 16:30 hs</li>
+                <li><strong>Cierre del festival:</strong> 02:00 hs</li>
+              </ul>
+
+              <p class="datoImportante mb-0">
+                Se recomienda ingresar antes de las 1:00 hs para evitar filas
+                y disfrutar del lineup completo.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="bloqueDatos h-100">
+              <h3>Lugar y cómo llegar</h3>
+
+              <p class="mb-2">
+                <strong>Ciudad Cultural Konex</strong>, Sarmiento 3131, Almagro, CABA
+              </p>
+
+              <ul class="list-unstyled mb-0">
+                <li><strong>Subte:</strong> Línea B (Estación Carlos Gardel a 3 cuadras).</li>
+                <li><strong>Colectivos:</strong> 24, 26, 29, 71, 99, 124, 146, 168.</li>
+                <li><strong>Bici / Monopatín:</strong> estacionamiento para bicis disponible en el ingreso.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="bloqueUtil h-100">
+              <h4>Ingreso y edad</h4>
+              <p>Solo mayores de 18 años. Ingreso obligatorio con DNI físico actualizado.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="bloqueUtil h-100">
+              <h4>Medios de pago</h4>
+              <p>Sistema Cashless recargable en el predio. Mercado Pago, débito, crédito y efectivo.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="bloqueUtil h-100">
+              <h4>Accesibilidad</h4>
+              <p>Predio 100% accesible con rampas, baños adaptados y sectores preferenciales.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="bloqueUtil h-100">
+              <h4>Sustentabilidad</h4>
+              <p>Ecovasos reutilizables y estaciones de recarga de agua gratuita toda la noche.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tickets" class="seccion seccionEntradas">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="tituloSeccion">Elegí tu entrada</h2>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card tarjetaEntrada h-100">
+              <div class="card-body d-flex flex-column">
+                <span class="badge etiquetaDisponible align-self-start mb-3">Disponible</span>
+
+                <h3 class="card-title">Rock Pass</h3>
+                <p class="tipoEntrada">Entrada General</p>
+                <p class="precioEntrada">$120.000</p>
+                <p class="descripcionEntrada">Viví toda la energía del rock en vivo.</p>
+
+                <ul class="beneficiosEntrada">
+                  <li>Acceso general al evento.</li>
+                  <li>Acceso a sectores de gastronomía y bebidas.</li>
+                  <li>Disfrutá de todas las bandas y shows.</li>
+                </ul>
+
+                <a href="#compra" class="btn botonPrincipal mt-auto">Comprar Rock Pass</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card tarjetaEntrada entradaDestacada h-100">
+              <div class="card-body d-flex flex-column">
+                <span class="badge etiquetaUltimosLugares align-self-start mb-3">Últimos lugares</span>
+
+                <h3 class="card-title">Front Stage</h3>
+                <p class="tipoEntrada">Entrada Preferencial</p>
+                <p class="precioEntrada">$220.000</p>
+                <p class="descripcionEntrada">Sentí la música más cerca que nunca.</p>
+
+                <ul class="beneficiosEntrada">
+                  <li>Todos los beneficios de Rock Pass.</li>
+                  <li>Acceso al sector preferencial frente al escenario.</li>
+                  <li>Ingreso prioritario al evento.</li>
+                  <li>Pulsera exclusiva Front Stage.</li>
+                </ul>
+
+                <a href="#compra" class="btn botonPrincipal mt-auto">Comprar Front Stage</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card tarjetaEntrada h-100">
+              <div class="card-body d-flex flex-column">
+                <span class="badge etiquetaDisponible align-self-start mb-3">Disponible</span>
+
+                <h3 class="card-title">Rockstar VIP</h3>
+                <p class="tipoEntrada">Entrada Premium</p>
+                <p class="precioEntrada">$390.000</p>
+                <p class="descripcionEntrada">Viví una experiencia de auténtica estrella de rock.</p>
+
+                <ul class="beneficiosEntrada">
+                  <li>Todos los beneficios de Front Stage.</li>
+                  <li>Acceso a un espacio VIP exclusivo.</li>
+                  <li>Barra de bebidas y catering incluidos.</li>
+                  <li>Kit de merchandising oficial del evento.</li>
+                  <li>Acceso a baños exclusivos.</li>
+                  <li>Estacionamiento preferencial.</li>
+                </ul>
+
+                <a href="#compra" class="btn botonPrincipal mt-auto">Comprar Rockstar VIP</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="compra" class="seccion seccionCompra" aria-labelledby="tituloCompra">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 id="tituloCompra" class="tituloSeccion">Comprá tu entrada</h2>
+
+          <p class="descripcionSeccion mx-auto">
+            Elegí tu pase y completá tus datos para vivir KadimaPalooza.
+          </p>
+        </div>
+        <form class="formularioCompra" aria-describedby="">
+          <div class="row g-4">
+            <div class="col-12 col-md-6">
+              <label for="nombreComprador" class="form-label">Nombre y apellido</label>
+              <input type="text" class="form-control" placeholder="Tu nombre y apellido" autocomplete="name">
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" placeholder="nombre@ejemplo.com" autocomplete="email">
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label for="documentoComprador" class="form-label">DNI</label>
+              <input type="text" class="form-control" inputmode="numeric" placeholder="Sin puntos ni espacios">
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label for="telefonoComprador" class="form-label">Teléfono</label>
+              <input type="tel" class="form-control" placeholder="Tu número con código de área" autocomplete="tel">
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label for="tipoEntrada" class="form-label">Tipo de entrada</label>
+              <select id="tipoEntrada" name="entrada" class="form-select">
+                <option value="" selected>Elegí tu pase</option>
+                <option value="rockPass">Rock Pass — $120.000 por entrada</option>
+                <option value="frontStage">Front Stage — $220.000 por entrada</option>
+                <option value="rockstarVip">Rockstar VIP — $390.000 por entrada</option>
+              </select>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label for="cantidadEntradas" class="form-label">Cantidad de entradas</label>
+              <input type="number" id="cantidadEntradas" name="cantidad" class="form-control" min="1" step="1" value="1">
+            </div>
+
+            <div class="col-12">
+              <label class="form-label">Medio de pago</label>
+              <select class="form-select">
+                <option value="" selected>Elegí cómo pagar</option>
+                <option value="">Tarjeta de crédito</option>
+                <option value="">Tarjeta de débito</option>
+                <option value="">Mercado Pago</option>
+              </select>
+            </div>
+              <button type="button" class="btn botonPrincipal">Comprar entradas</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pieFestival">
+      <div class="row g-4 border-bottom border-light border-opacity-10 contenidoPie">
+        <div class="col-12 col-md-4">
+          <h3 class="h5 fw-bold mb-3 text-uppercase marcaFestival">KadimaPalooza</h3>
+          <p class="textoAtenuado mb-3">Festival de Rock Alternativo e Indie.</p>
+
+          <ul class="list-unstyled d-flex gap-3 redesPie mb-0">
+            <li><a href="https://instagram.com">Instagram</a></li>
+            <li><a href="https://x.com">X</a></li>
+            <li><a href="https://tiktok.com">TikTok</a></li>
+            <li><a href="https://youtube.com">YouTube</a></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <h4 class="h6 fw-bold mb-3 text-uppercase text-white">Secciones</h4>
+
+          <ul class="list-unstyled enlacesPie mb-0">
+            <li class="mb-2"><a href="#info">Información</a></li>
+            <li class="mb-2"><a href="#lineup">Lineup</a></li>
+            <li class="mb-2"><a href="#datos">Fecha & Lugar</a></li>
+            <li class="mb-0"><a href="#compra">Comprar Tickets</a></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <h4 class="h6 fw-bold mb-3 text-uppercase text-white">Ubicación y contacto</h4>
+          <p class="textoAtenuado mb-1">Ciudad Cultural Konex (Sarmiento 3131)</p>
+          <p class="textoAtenuado mb-1">Sábado 14 de Noviembre, 18:00 hs</p>
+          <p class="textoAtenuado mb-0">info@kadimapalooza.com</p>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center derechosPie">
+        <p class="mb-0">© 2026 KadimaPalooza. Todos los derechos reservados.</p>
+      </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
